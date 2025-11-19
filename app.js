@@ -37,4 +37,4 @@ function showData(list) {
     }
 }
 
-fetch(apiLink).then(r => r.json()).then(showData);
+fetch(apiLink).then(r => r.json()).then(showData).catch(error => console.error('Error loading data:', error));
