@@ -1,4 +1,4 @@
-var apiLink = "https://ribbon-backend.onrender.com/api/top-positive";
+var apiLink = "https://ribbon-backend.onrender.com/api/sentiment";
 
 var loadingText = document.getElementById("loadingText");
 var sentimentTable = document.getElementById("sentimentTable");
