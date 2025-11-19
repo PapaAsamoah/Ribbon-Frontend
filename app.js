@@ -1,4 +1,4 @@
-var apiLink = "https://YOUR-RENDER-URL/api/sentiment?subreddit=wallstreetbets";
+var apiLink = "https://ribbon-backend.onrender.com/api/top-positive";
 
 var loadingText = document.getElementById("loadingText");
 var sentimentTable = document.getElementById("sentimentTable");
