@@ -1,4 +1,5 @@
-var apiLink = ""; 
+var apiLink = "https://YOUR-RENDER-URL/api/sentiment?subreddit=wallstreetbets";
+
 var loadingText = document.getElementById("loadingText");
 var sentimentTable = document.getElementById("sentimentTable");
 var sentimentBody = document.getElementById("sentimentBody");
@@ -35,4 +36,4 @@ function showData(list) {
     }
 }
 
-showData([]);
+fetch(apiLink).then(r => r.json()).then(showData);
