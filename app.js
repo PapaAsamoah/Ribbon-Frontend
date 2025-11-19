@@ -1,4 +1,5 @@
-var apiLink = "https://ribbon-backend.onrender.com/api/sentiment";
+//var apiLink = "https://ribbon-backend.onrender.com/api/sentiment";
+var apiLink = "https://127.0.0.1:8000/api/sentiment";
 
 var loadingText = document.getElementById("loadingText");
 var sentimentTable = document.getElementById("sentimentTable");
